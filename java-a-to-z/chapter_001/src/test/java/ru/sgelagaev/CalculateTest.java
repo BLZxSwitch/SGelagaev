@@ -13,7 +13,7 @@ import static org.junit.Assert.assertThat;
 public class CalculateTest {
 
     /**Тест метода echo.
-    */
+     */
     @Test
     public void whenSetStopInEchoThenReturnThreeStops() {
         //assigne
@@ -23,7 +23,7 @@ public class CalculateTest {
     }
 
     /**Тест метода echo.
-    */
+     */
     @Test
     public void whenSetNullInEchoThenReturnTwoSpaces() {
         //assigne

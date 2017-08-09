@@ -8,9 +8,9 @@ package ru.sgelagaev;
  */
 public class HelloWorld {
 
-	/**Метод main, вывод сообщения наэкран.
-	*@param arg - arg
-	*/
+	/**Метод main, вывод сообщения на экран.
+	 *@param arg - arg
+	 */
 	public static void main(String[] arg) {
 		System.out.println("Hellow World!");
 	}
