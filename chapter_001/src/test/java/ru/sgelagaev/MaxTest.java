@@ -26,4 +26,14 @@ public class MaxTest {
         int result = maxim.max(1, 1);
         assertThat(result, is(1));
     }
+
+    /**
+     * Метод для тестирования нахожедния максимума трех числе.
+     */
+    @Test
+    public void whenThirdIsMaxOfThree() {
+        Max maxim = new Max();
+        int result = maxim.max(1, 2, 3);
+        assertThat(result, is(3));
+    }
 }
