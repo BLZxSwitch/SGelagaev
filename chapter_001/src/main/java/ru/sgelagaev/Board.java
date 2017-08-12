@@ -16,20 +16,11 @@ public class Board {
 
         for (int i = 1; i <= height; i++) {
             for (int j = 1; j <= width; j++) {
-                if (i % 2 == 0) {
-                    if (j % 2 == 0) {
-                        console.append("x");
-                    } else {
-                        console.append(" ");
-                    }
+                if ((i + j) % 2 == 0) {
+                    console.append("x");
                 } else {
-                    if (j % 2 != 0) {
-                        console.append("x");
-                    } else {
-                        console.append(" ");
-                    }
+                    console.append(" ");
                 }
-
                 if (j == width) {
                     console.append(System.getProperty("line.separator"));
                 }
