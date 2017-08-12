@@ -46,6 +46,6 @@ public class Point {
      * @return - возвращает true при вхождении, иначе false
      */
     public boolean is(int a, int b) {
-        return y == a * x + b ? true : false;
+        return y == a * x + b;
     }
 }
