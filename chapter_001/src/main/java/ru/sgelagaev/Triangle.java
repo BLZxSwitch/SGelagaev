@@ -89,6 +89,6 @@ public class Triangle {
      * @return - возможность создания треугольника по длинам сторон
      */
     private boolean exist(double ab, double ac, double bc) {
-        return ab + ac <= bc ?  false : true;
+        return (ab < ac + bc) & (ac < bc + ab) & (bc < ac + ab);
     }
 }
