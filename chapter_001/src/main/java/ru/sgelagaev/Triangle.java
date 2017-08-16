@@ -65,6 +65,7 @@ public class Triangle {
      *
      * @return Вернуть прощадь, если треугольник существует или -1.
      */
+
     public double area() {
         double rsl = -1;
         double ab = this.distance(this.a, this.b);
